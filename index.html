@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Blackjack</h1>
+        <div id="dealer">
+            <h2>Krupiye</h2>
+            <div id="dealer-cards" class="cards"></div>
+            <p id="dealer-score">Puan: 0</p>
+        </div>
+        <div id="player">
+            <h2>Oyuncu</h2>
+            <div id="player-cards" class="cards"></div>
+            <p id="player-score">Puan: 0</p>
+        </div>
+        <div id="controls">
+            <button id="hit">Kart Çek</button>
+            <button id="stand">Pas</button>
+            <button id="restart">Yeniden Başlat</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
